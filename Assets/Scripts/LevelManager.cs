@@ -38,10 +38,6 @@ public class LevelManager : MonoBehaviour
   }
 
 
-  public void ReloadFirstLvl()
-  {
-    SceneManager.LoadScene(0);
-  }
 
   public void LoadLevel(int num)
   {
