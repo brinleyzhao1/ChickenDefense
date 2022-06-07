@@ -72,8 +72,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 120, y: 50}
+  m_AnchoredPosition: {x: 8.72, y: 0}
+  m_SizeDelta: {x: 102.56546, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5106891239249506172
 CanvasRenderer:
@@ -146,8 +146,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38, y: 0}
-  m_SizeDelta: {x: 174.6, y: 50}
+  m_AnchoredPosition: {x: 17, y: 1.1}
+  m_SizeDelta: {x: 84.469696, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5106891239281977460
 CanvasRenderer:
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 9999
+  m_text: 999
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e5fc7f93b6644b348383260efb5ba0e, type: 2}
   m_sharedMaterial: {fileID: 3356948259986477316, guid: 5e5fc7f93b6644b348383260efb5ba0e,
@@ -205,14 +205,14 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 258
+  m_textAlignment: 514
   m_characterSpacing: 10
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -243,10 +243,10 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 77.92098, w: 0}
+  m_margin: {x: 0, y: 0, z: 0.77885294, w: 0}
   m_textInfo:
     textComponent: {fileID: 5106891239281977461}
-    characterCount: 4
+    characterCount: 3
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -296,14 +296,14 @@ RectTransform:
   m_GameObject: {fileID: 5106891239643809055}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.5}
+  m_LocalScale: {x: 0.424, y: 0.424, z: 0.53}
   m_Children: []
   m_Father: {fileID: 5106891238690050753}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -84.5, y: 0}
+  m_AnchoredPosition: {x: -38.8, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5106891239643809120
