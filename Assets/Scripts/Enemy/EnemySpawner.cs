@@ -9,7 +9,7 @@ public class EnemySpawner : MonoBehaviour
   [Range(0.1f, 60f)] [SerializeField] public float maxSpawnInterval = 10f;
 
   private float spawnInterval;
-  [SerializeField] public float secondsIncreaseDifficulty = 0.5f;
+  [SerializeField] public float shortenSpawnIntervalBy = 0.5f;
   [SerializeField] private float enemyHealth = 5;
   [SerializeField] private float enemyHealthIncrease = 2f;
 
@@ -43,7 +43,7 @@ public class EnemySpawner : MonoBehaviour
 
       //increase difficulty
       enemyHealth += enemyHealthIncrease;
-      spawnInterval -= secondsIncreaseDifficulty;
+      spawnInterval -= shortenSpawnIntervalBy;
       _progressBar.UpdateProgressBar(spawnInterval - timeBeforeStopSpawning, maxSpawnInterval - timeBeforeStopSpawning);
 
       if (spawnInterval <= timeBeforeStopSpawning)
