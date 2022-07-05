@@ -1,51 +1,50 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Coin : MonoBehaviour
+namespace Player
 {
-
-  // public int coin { get; set; } = 100;
-  private UIManager _uiManager;
-  [SerializeField] public int coin = 20;
-
-  [SerializeField] private AudioClip coinInSFX;
-  AudioSource _myAudioSource;
-
-
-
-  private void Start()
+  public class Coin : MonoBehaviour
   {
-    _uiManager = FindObjectOfType<UIManager>();
-    _uiManager.UpdateCoinText(coin);
-    _myAudioSource = GetComponent<AudioSource>();
-  }
 
-  // public int coin = 10;
-  public void AddCoin(int income)
-  {
-    StartCoroutine(_uiManager.AddCoinTextPopUp(income));
-    coin += income;
-    _uiManager.UpdateCoinText(coin);
-    _myAudioSource.PlayOneShot(coinInSFX);
-  }
+    // public int startWithCoin { get; set; } = 100;
+    private UIManager _uiManager;
+    [SerializeField] public int startWithCoin = 20;
+
+    [SerializeField] private AudioClip coinInSFX;
+    AudioSource _myAudioSource;
 
 
 
-  /*IEnumerator CoinTextPopup(Vector3 position)
+    private void Start()
+    {
+      _uiManager = FindObjectOfType<UIManager>();
+      _uiManager.UpdateCoinText(startWithCoin);
+      _myAudioSource = GetComponent<AudioSource>();
+    }
+
+    // public int startWithCoin = 10;
+    public void AddCoin(int income)
+    {
+      StartCoroutine(_uiManager.AddCoinTextPopUp(income));
+      startWithCoin += income;
+      _uiManager.UpdateCoinText(startWithCoin);
+      _myAudioSource.PlayOneShot(coinInSFX);
+    }
+
+
+
+    /*IEnumerator CoinTextPopup(Vector3 position)
   {
     GameObject coinText = Instantiate(coinPopUpPrefab, position, Quaternion.identity);
     yield return new WaitForSeconds(1f);
     Destroy(coinText);
   }*/
 
-  public void SubtractCoin(int expense)
-  {
-    coin -= expense;
-    _uiManager.UpdateCoinText(coin);
+    public void SubtractCoin(int expense)
+    {
+      startWithCoin -= expense;
+      _uiManager.UpdateCoinText(startWithCoin);
+    }
+
+
   }
-
-
 }

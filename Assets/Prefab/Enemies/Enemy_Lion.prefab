@@ -69,7 +69,7 @@ MonoBehaviour:
     type: 3}
   enemyHitSfx: {fileID: 8300000, guid: 01c9fca5a913043f7b6151f249b3516d, type: 3}
   enemyDeathSfx: {fileID: 8300000, guid: 5274898b4b3ed4d82b2eedddb6991ea9, type: 3}
-  value: 10
+  value: 9
   healthBar: {fileID: 4777579542818667649}
 --- !u!54 &4759556183558821124
 Rigidbody:

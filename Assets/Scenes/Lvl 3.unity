@@ -7223,8 +7223,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.28000006, y: 0.32, z: 0.776043}
-  m_Center: {x: -1.1722021e-15, y: 0.16, z: 0.18802175}
+  m_Size: {x: 0.56612325, y: 0.32, z: 0.37161273}
+  m_Center: {x: 0.14306176, y: 0.16, z: -0.014193286}
 --- !u!114 &1295338064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7239,7 +7239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   healthDecrease: 1
-  playerDamageSFX: {fileID: 8300000, guid: 0e5e60590f46fb94bb8b06da1f78a80d, type: 3}
+  playerDamageSFX: {fileID: 8300000, guid: ff01d7cc87052477ebf5c3587e6c396c, type: 3}
 --- !u!82 &1295338068
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7348,7 +7348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0abb02651d74a4f07a6bb7a99530f21c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: 30
+  startWithCoin: 35
   coinInSFX: {fileID: 8300000, guid: a713dcbe9dd5b461d9d55c32da3a9d3e, type: 3}
 --- !u!1001 &1319023142
 PrefabInstance:

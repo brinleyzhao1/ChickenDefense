@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Player;
 using UnityEngine;
 
 public class TowerFactory : MonoBehaviour {
@@ -24,7 +25,7 @@ public class TowerFactory : MonoBehaviour {
 
     public void AddTower(TowerBase baseBlock)
     {
-      if (_coin.coin >= towerPrice)
+      if (_coin.startWithCoin >= towerPrice)
       {
         _coin.SubtractCoin(towerPrice);
         InstantiateNewTower(baseBlock);

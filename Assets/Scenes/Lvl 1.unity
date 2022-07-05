@@ -5412,7 +5412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.36200002, g: 0.36200002, b: 0.36200002, a: 0.5882353}
+  m_Color: {r: 0.32599998, g: 0.32599998, b: 0.32599998, a: 0.6431373}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -7335,7 +7335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   healthDecrease: 1
-  playerDamageSFX: {fileID: 8300000, guid: 0e5e60590f46fb94bb8b06da1f78a80d, type: 3}
+  playerDamageSFX: {fileID: 8300000, guid: ff01d7cc87052477ebf5c3587e6c396c, type: 3}
 --- !u!82 &1295338068
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8645,9 +8645,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpawnInterval: 8
-  secondsIncreaseDifficulty: 0.4
+  shortenSpawnIntervalBy: 0.5
   enemyHealth: 3
-  enemyHealthIncrease: 1
+  enemyHealthIncrease: 0.5
   enemyPrefab: {fileID: 1710187772141297633, guid: c3c79e717d32042e9a113a9696f04dee,
     type: 3}
   enemyParentTransform: {fileID: 1509410246}
@@ -13166,7 +13166,12 @@ PrefabInstance:
     - target: {fileID: 3179834224642929833, guid: f2754915099fd4cd2a4c20858bb3cecf,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 305.9
+      value: 338.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3179834224642929833, guid: f2754915099fd4cd2a4c20858bb3cecf,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 43.1
       objectReference: {fileID: 0}
     - target: {fileID: 3179834225539178642, guid: f2754915099fd4cd2a4c20858bb3cecf,
         type: 3}
@@ -13292,6 +13297,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textAlignment
       value: 258
+      objectReference: {fileID: 0}
+    - target: {fileID: 3179834225640482229, guid: f2754915099fd4cd2a4c20858bb3cecf,
+        type: 3}
+      propertyPath: m_text
+      value: "tower costs 20 eggs, \ndefeat animals to get \neggs!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3179834225640482229, guid: f2754915099fd4cd2a4c20858bb3cecf,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3179834225640482229, guid: f2754915099fd4cd2a4c20858bb3cecf,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3179834225640482229, guid: f2754915099fd4cd2a4c20858bb3cecf,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3179834225640482229, guid: f2754915099fd4cd2a4c20858bb3cecf,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3179834225640482229, guid: f2754915099fd4cd2a4c20858bb3cecf,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3179834225657452450, guid: f2754915099fd4cd2a4c20858bb3cecf,
         type: 3}
