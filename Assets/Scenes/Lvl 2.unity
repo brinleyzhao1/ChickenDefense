@@ -2233,7 +2233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2497ec1f36bba8545b156eb2b78620e7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.6
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2497ec1f36bba8545b156eb2b78620e7, type: 3}
       propertyPath: m_LocalRotation.x
@@ -10274,10 +10274,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpawnInterval: 10
-  secondsIncreaseDifficulty: 0.4
+  shortenSpawnIntervalBy: 0.5
   enemyHealth: 3
   enemyHealthIncrease: 1.2
-  enemyPrefab: {fileID: 1710187772141297633, guid: c3c79e717d32042e9a113a9696f04dee,
+  enemyPrefab: {fileID: 1710187772141297633, guid: d626a87890df945dcb3a1152010e1013,
     type: 3}
   enemyParentTransform: {fileID: 1509410246}
   timeBeforeSpawn: 3
@@ -11147,7 +11147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2497ec1f36bba8545b156eb2b78620e7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.39
+      value: 3.93
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2497ec1f36bba8545b156eb2b78620e7, type: 3}
       propertyPath: m_LocalRotation.x

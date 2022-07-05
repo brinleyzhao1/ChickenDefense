@@ -7837,7 +7837,7 @@ MonoBehaviour:
   shortenSpawnIntervalBy: 0.6
   enemyHealth: 5
   enemyHealthIncrease: 1.4
-  enemyPrefab: {fileID: 1710187772141297633, guid: c3c79e717d32042e9a113a9696f04dee,
+  enemyPrefab: {fileID: 1710187772141297633, guid: c2644ac961b9440c086f09a79ec6609c,
     type: 3}
   enemyParentTransform: {fileID: 1509410246}
   timeBeforeSpawn: 2
